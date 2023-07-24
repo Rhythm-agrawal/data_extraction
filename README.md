@@ -22,14 +22,6 @@ To use the Mileage Report API, you need to have the following installed:
 bundle install
 ```
 
-Prepare the XLS data files:
-
-Place the Mileage Report XLS files in the "data" directory with the following naming convention:
-
-"XYZ_MPG_2020_August.xls"
-"XYZ_MPG_2020_April.xls"
-"XYZ_MPG_2020_January.xls"
-
 Usage
 To start the Mileage Report API server, run the following command in the project directory:
 
