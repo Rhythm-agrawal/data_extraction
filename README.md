@@ -46,9 +46,6 @@ Method: GET
 Description: Extracts Mileage Report data from the XLS files specified in the "data" directory.
 Response: An array of extracted data for all three files, each containing Company, DateRange, TotalDriverCount, ProcessedDate, and DriverData.
 
-Swagger Documentation
-The API is documented using Swagger. The Swagger UI can be accessed at https://petstore.swagger.io/ by writing in the search bar http://localhost:3000/swagger_doc and click Explore . It provides a user-friendly interface to explore and interact with the API endpoints.
-
 Running Test Cases
 To run the test cases for the Mileage Report API, use the following command in the project directory:
 
