@@ -39,6 +39,9 @@ class MileageReportAPI < Grape::API
         gallons = df.cell(row, 3)
         mpg = df.cell(row, 4)
 
+        # Skip the first row (header row) by checking if the driver name is "Driver"
+        next if driver == "Driver"
+
         driver_data << {Driver: driver, Miles: miles, Gallons: gallons, MPG: mpg}
       end
 
